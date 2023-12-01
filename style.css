@@ -1,0 +1,54 @@
+
+body {
+    background-color: rgb(222, 184, 135);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#ent:hover {
+    background-color: rgba(0, 205, 7, 0.5);
+    color: white;
+    
+  }
+
+
+#res_div {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(118, 88, 39, 0.1);
+    border:0.5px solid rgb(101, 69, 31, 0.7);
+    padding: 30px;
+    max-width: 440px;
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(101, 69, 31, 0.4);
+    padding: 35px;
+    border: dashed;
+    font-size: 220%;
+    display: grid;
+    justify-content: center;
+    max-width: 440px;
+}
+
+
+.center-container {
+    display: grid;
+    justify-items: center;
+    
+}
+
+input {
+    margin: -6px;
+}
+
+hr {
+    max-width: 350px;
+    background-color: black;
+    height: 0.7px;
+    border: none;
+}
+
+h4 {
+    padding: 15px;
+}
